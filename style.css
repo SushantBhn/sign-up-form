@@ -71,7 +71,7 @@ button {
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 200px;
 }
 
@@ -117,4 +117,17 @@ input:invalid {
 
 button:hover {
     cursor: pointer;
+}
+
+.author-credit {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    width: 40vw;
+    text-align: center;
+}
+
+.author-credit a {
+    color: white;
+    text-decoration: underline;
 }
