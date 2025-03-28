@@ -104,3 +104,17 @@ input {
     border: 1px solid #e5e7eb;
     border-radius: 5px;
 }
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.form-input input:focus {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 5px gray;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
